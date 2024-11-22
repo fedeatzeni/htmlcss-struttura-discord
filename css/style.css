@@ -17,13 +17,17 @@ header{
 
 }
 
-header a{
+a{
     color: black;
     text-decoration: none;
 }
 
 .dot{
-    border: 3px dashed black ;
+    border: 5px dashed black;
+}
+
+.dot-w{
+    border: 5px dashed white ;
 }
 
 .logo, .link, .login{
@@ -32,7 +36,7 @@ header a{
 }
 
 .logo{
-    flex-basis: 15%;
+    flex-basis: 10%;
 }
 
 .link{
@@ -41,7 +45,7 @@ header a{
 }
 
 .login{
-    flex-basis: 15%;
+    flex-basis: 10%;
     text-align: end;
 
 }
@@ -56,10 +60,10 @@ header a{
 }
 
 .jumbo div{
-        /* debug */
-        min-height: 300px;
-        min-width: 50%;
-        background-color: #de47a7;
+    /* debug */
+    min-height: 300px;
+    min-width: 50%;
+    background-color: #de47a7;
 
 }
 
@@ -85,7 +89,66 @@ header a{
     background-color:pink;
 }
 
+.img-big{
+    /* debug */
+    min-height: 700px;
+    flex-basis: 60%;
+    background-color: green;
+    margin: 50px 0;
+
+}
+
 .bg-gray{
     background-color: #b9afaf;
 }
 
+.block-1{
+    /* debug */
+    min-height: 300px;
+    background-color: #b66d9c;
+    flex-basis: 40%;
+}
+
+.block-2{
+    /* debug */
+    min-height: 300px;
+    background-color: cyan;
+    flex-basis: 15%;
+}
+
+.container3{
+    /* debug */
+    width: 60%;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #232121;
+}
+
+.border-w{
+    border-top: solid 3px white ;
+    padding-top: 20px;
+}
+
+.bg-cyan{
+    /* debug */
+    background-color: cyan;
+    min-height: 50px;
+}
+
+.main-footer a{
+    padding: 5px;
+    /* debug */
+    background-color: #b66d9c;
+}
+
+.main-footer .flex{
+    justify-content: space-between;
+}
