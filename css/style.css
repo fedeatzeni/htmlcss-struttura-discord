@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* debug */
+    background-color:  lightblue;
+    padding: 10px;
+
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo, .link, .login{
+    background-color: yellow;
+    padding: 10px;
+}
+
+.logo{
+    flex-basis: 15%;
+}
+
+.link{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.login{
+    flex-basis: 15%;
+    text-align: end;
+
+}
+
+
+
+
+.dot{
+    border: 3px dashed black ;
+}
