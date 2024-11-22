@@ -22,8 +22,12 @@ header a{
     text-decoration: none;
 }
 
+.dot{
+    border: 3px dashed black ;
+}
+
 .logo, .link, .login{
-    background-color: yellow;
+    background-color: #d0c710;
     padding: 10px;
 }
 
@@ -42,9 +46,46 @@ header a{
 
 }
 
-
-
-
-.dot{
-    border: 3px dashed black ;
+.jumbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 400px;
+    background-color: blue;
 }
+
+.jumbo div{
+        /* debug */
+        min-height: 300px;
+        min-width: 50%;
+        background-color: #de47a7;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 500px;
+}
+
+.img{
+    /* debug */
+    min-height: 400px;
+    flex-basis: 40%;
+    background-color: #2062cc;
+}
+
+.txt{
+    /* debug */
+    min-height: 400px;
+    flex-basis: 20%;
+    background-color:pink;
+}
+
+.bg-gray{
+    background-color: #b9afaf;
+}
+
