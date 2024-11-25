@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+/* header  */
 header{
+    padding: 10px;
     /* debug */
     background-color:  lightblue;
-    padding: 10px;
 
 }
 
@@ -31,8 +32,9 @@ a{
 }
 
 .logo, .link, .login{
-    background-color: #d0c710;
     padding: 10px;
+    /* debug */
+    background-color: #d0c710;
 }
 
 .logo{
@@ -50,6 +52,7 @@ a{
 
 }
 
+/* main  */
 .jumbo{
     display: flex;
     justify-content: center;
@@ -60,9 +63,9 @@ a{
 }
 
 .jumbo div{
+    min-width: 50%;
     /* debug */
     min-height: 300px;
-    min-width: 50%;
     background-color: #de47a7;
 
 }
@@ -71,28 +74,27 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    min-height: 500px;
+    padding: 50px 0;
 }
 
 .img{
+    flex-basis: 40%;
     /* debug */
     min-height: 400px;
-    flex-basis: 40%;
     background-color: #2062cc;
 }
 
 .txt{
+    flex-basis: 20%;
     /* debug */
     min-height: 400px;
-    flex-basis: 20%;
     background-color:pink;
 }
 
 .img-big{
+    flex-basis: 60%;
     /* debug */
     min-height: 700px;
-    flex-basis: 60%;
     background-color: green;
     margin: 50px 0;
 
@@ -103,17 +105,17 @@ a{
 }
 
 .block-1{
+    flex-basis: 40%;
     /* debug */
     min-height: 300px;
     background-color: #b66d9c;
-    flex-basis: 40%;
 }
 
 .block-2{
+    flex-basis: 15%;
     /* debug */
     min-height: 300px;
     background-color: cyan;
-    flex-basis: 15%;
 }
 
 .container3{
@@ -128,6 +130,13 @@ a{
     align-items: center;
 }
 
+.bg-cyan{
+    /* debug */
+    background-color: cyan;
+    min-height: 50px;
+}
+
+/* footer  */
 footer{
     background-color: #232121;
 }
@@ -135,12 +144,6 @@ footer{
 .border-w{
     border-top: solid 3px white ;
     padding-top: 20px;
-}
-
-.bg-cyan{
-    /* debug */
-    background-color: cyan;
-    min-height: 50px;
 }
 
 .main-footer a{
